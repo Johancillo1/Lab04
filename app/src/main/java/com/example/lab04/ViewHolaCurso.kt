@@ -14,13 +14,12 @@ fun ViewHolaCurso(modifier: Modifier = Modifier) {
             .fillMaxWidth()
             .padding(16.dp)
     ) {
-        Text(text = "¡Hola, curso de Android con Jetpack Compose! 🎉")
-        Spacer(modifier = Modifier.height(8.dp))
-        Button(onClick = { }) {
-            Text("Click aquí")
+        Text(
+            text = "¡Hola, curso mejorado en rama Upgrading-component-1!",
+            style = MaterialTheme.typography.titleLarge
+        )
         }
     }
-}
 
 @Preview(showBackground = true)
 @Composable
