@@ -3,6 +3,7 @@ package com.example.lab04
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Button
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -16,7 +17,10 @@ fun ControlBox() {
         contentAlignment = Alignment.Center
     ) {
         Button(onClick = { }) {
-            Text("Soy un botón dentro de un Box")
+            Text(
+                text = "Botón centrado actualizado en main",
+                style = MaterialTheme.typography.titleMedium
+            )
         }
     }
 }
