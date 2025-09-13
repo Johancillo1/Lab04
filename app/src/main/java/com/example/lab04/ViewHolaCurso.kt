@@ -18,8 +18,8 @@ fun ViewHolaCurso(modifier: Modifier = Modifier) {
             text = "¡Hola, curso mejorado en rama Upgrading-component-1!",
             style = MaterialTheme.typography.titleLarge
         )
-        }
     }
+}
 
 @Preview(showBackground = true)
 @Composable
